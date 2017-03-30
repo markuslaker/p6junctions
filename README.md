@@ -86,7 +86,7 @@ Just as we can already apply a lambda, it would be syntactically sweeter if we c
 
 If a lambda, function or method returned `bool`, we could return something that collapsed to `bool` on demand, so that you could say something like this:
 
-    bool is_beyond_the_page(int);
+    bool is_beyond_the_pale(int);
     // ....
     if (any(vec) (is_beyond_the_pale) .Test())
         return E_TOO_BAD;
